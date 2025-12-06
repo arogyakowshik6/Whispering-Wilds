@@ -25,10 +25,10 @@ nav
     left: 0;
     width: 100%;
     display: inline;
-    background-color: #e3f2fd;
+    background-color: #205b85;
     opacity: 0.95;
     padding: 10px 0px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.52);
+    box-shadow: 0px 2px 10px rgba(32, 64, 94, 0.52);
 }
 nav ul{
     list-style-type: none;
@@ -46,7 +46,11 @@ nav a{
     text-decoration: none;
     font-family: 'sans-serif';
     color: #fff;
-
+    transition: color 0.3s border-bottom 0.3s;
     padding: 10px 15px;
     font-weight: bold;
 }
+nav a:hover{
+    color: #000;
+    border-bottom: 2px solid #000;
+}   
