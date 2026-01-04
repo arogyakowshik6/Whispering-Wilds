@@ -439,4 +439,10 @@ button.tour-button a{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+.contact-info{
+    font-size: 14px;
+    color: #e6e6e6;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: right;
+}
