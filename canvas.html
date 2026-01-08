@@ -10,6 +10,9 @@
             width:400px;
             height:200px;
         }
+        #secondCanvas {
+            border: 5px solid #0000FF;
+        }
     </style>
 </head>
 <body>
@@ -28,4 +31,21 @@
             ctx.fill();
         });
     </script>
+    <div>
+        <canvas id="secondCanvas" width="400" height="200" ></canvas>
+        <script>
+            const secondCanvas = document.getElementById("secondCanvas");
+            const secondCtx = secondCanvas.getContext("2d");
+
+            secondCanvas.addEventListener("mousemove", function(event) {
+                const x = event.clientX - secondCanvas.offsetLeft;
+                const y = event.clientY - secondCanvas.offsetTop;
+
+                secondCtx.beginPath();
+                secondCtx.arc(x, y, 10, 0, Math.PI * 2);
+                secondCtx.fillStyle = "purple";
+                secondCtx.fill();
+            });
+        </script>
+    </div>
 </body>
