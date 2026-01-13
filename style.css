@@ -1,7 +1,7 @@
 h1{
     font-size: 40px;
     font-family:'Courier New', Courier, monospace;
-    color:#2e2c2c;
+    color:#b07878;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -9,8 +9,13 @@ h1{
 p{
     font-size: 16px;
     font-family: 'Arial', sans-serif;
-    color:#272626;
+    color:#dfdcdc;
     line-height: 1.5;
+}
+.rabbit{
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color:#151414;
 }
 
 .discover
@@ -133,6 +138,7 @@ button{
     text-transform: uppercase;
     position: relative;
     border: none;
+    padding-top: 8px;
     font-size: 18px;
     color: #ffffff;
     transform: 0,2s;
