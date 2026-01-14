@@ -229,11 +229,10 @@ button ::after, button ::before{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
 }
-.gallery-main figure:nth-child(3n+1){
+/* .gallery-main figure:nth-child(3n+1){
     border:solid 2px #e60909;
-    border-radius: 8px;
+    border-radius: 8px; */
 
-}
 .gallery-main figure::selection{
     background-color: orange;
     border: 1px solid rgb(127, 102, 56);
